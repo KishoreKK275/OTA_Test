@@ -1,0 +1,14 @@
+# Never commit real secrets
+src/config/secrets.h
+
+# MPLAB build artifacts (don't commit these)
+*.d
+*.p1
+*.pre
+*.obj
+*.cmf
+*.sdb
+*.sym
+nbproject/private/
+build/
+dist/
